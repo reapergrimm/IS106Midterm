@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kelsey Ewing - IS106 Midterm</title>
+        
+        <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        body, html {
+            width: 100vw;
+            height: 100vh;
+        }
+        h2{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .box-shadow{
+            -webkit-box-shadow: -1px 7px 23px -10px rgba(0,0,0,0.75);
+            -moz-box-shadow: -1px 7px 23px -10px rgba(0,0,0,0.75);
+            box-shadow: -1px 7px 23px -10px rgba(0,0,0,0.75);
+        }
+        .main-container-grid {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            height: 100%;
+            grid-row-gap: 1em;
+        }
+        .r1, .r3 {
+            display: grid;
+            background-color: #9BC1BC;
+            padding: 1em;
+            align-self: center;
+        }
+        .r3 {
+            text-align: center;
+            color: #F4F1BB;
+        }
+        .r2 {
+            height: 100%;
+            background-color: #9BC1BC;
+            color: #E6EBE0;
+        }
+        .three-column{
+            display: grid;
+            grid-template-columns: 2fr 7fr 3fr;
+            background-color:  #FFF;
+            grid-column-gap: 1em;
+        }
+        .c1{
+            min-width: 200px;
+        }
+        .c1, .c3{
+            background-color: #CCC;
+        }
+        .txt-center{
+            text-align: center;
+            margin: 15px auto 0px;
+            border-bottom: 1px solid #a8a7a7;
+            padding: 15px ;
+        }
+        .left-nav{
+            list-style-type: none;
+        }
+        .left-nav > li > a{
+            display: block;
+            padding: 15px 0px 15px 30px;
+            background-color: #f4f4f4;
+            font-weight: bold;
+            text-decoration: none;
+            transition-duration: 0.7s;
+        }
+        .left-nav > li > a:hover{
+            background-color: #8d8c8c;
+        }
+        .c2{ /*changed only on about page*/
+            padding: 40px 20%;
+            height: 100%;
+        }
+        .h2-content{
+            grid-column: 1/5;
+            height: 22px;
+            width: 100%;
+        }
+        .c2 > img {
+            width: 100%;
+            align-self: center;
+            max-height: 130px;
+        }
+        .r1 > img {
+            width: auto;
+            height: auto;
+            align-self: left;
+            max-height: 130px;
+        }
+        .oneimage{
+            display: auto;
+        }
+        </style>
+    </head>
+    
+    
+    <body class="main-container-grid">
+        <div class="r1 box-shadow">
+            <img class= "logo" src= "./img/sm_logo.jpg">
+        </div>
+        <div class="r2 one-column">
+            <div class="c2">
+                <h2>Company Information</h2>
+                <p>Dolorem quis minus asperiores eligendi. Optio consequuntur vel harum non. Rem nesciunt corporis non consequatur consequatur quia aut. Aut facere placeat et. Quod occaecati illum quasi quia ut qui amet nobis. Vel soluta possimus aut voluptate quae sint.</p>
+                <p>Dolorem quis minus asperiores eligendi. Optio consequuntur vel harum non. Rem nesciunt corporis non consequatur consequatur quia aut. Aut facere placeat et. Quod occaecati illum quasi quia ut qui amet nobis. Vel soluta possimus aut voluptate quae sint.</p>
+                <p>Dolorem quis minus asperiores eligendi. Optio consequuntur vel harum non. Rem nesciunt corporis non consequatur consequatur quia aut. Aut facere placeat et. Quod occaecati illum quasi quia ut qui amet nobis. Vel soluta possimus aut voluptate quae sint.</p>
+            </div>
+            <div>
+                <img class= "oneimage" src= "./img/image_1.jpg">
+            </div>  
+
+        </div>
+        <div class="r3">
+            For educational purpose only! No orders shall be fulfilled        </div>
+    </body>
+</html>
